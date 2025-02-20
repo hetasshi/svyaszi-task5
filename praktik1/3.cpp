@@ -64,8 +64,9 @@ int main() {
 
     manager.listProgrammers();
 
-    std::cout << "Менеджер программиста " << programmer1.getName() << " - "
-        << programmer1.getManager()->getName() << std::endl;
+ /*std::cout << "Менеджер программиста " << programmer1.getName() << " - "
+     << programmer1.getManager()->getName() << std::endl;*/
+// чисто проверка анкоментите если проверить захотите
 
     return 0;
 }
